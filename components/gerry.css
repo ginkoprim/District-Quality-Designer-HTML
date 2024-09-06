@@ -1,0 +1,33 @@
+.gerry-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.gerry-liaison {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.gerry-image {
+  width: 200px;
+  object-fit: cover;
+}
+.gerry-fragment1 {
+  display: contents;
+}
+.gerry-text3 {
+  display: inline-block;
+}
+.gerry-fragment2 {
+  display: contents;
+}
+.gerry-text4 {
+  display: inline-block;
+}
